@@ -1,0 +1,32 @@
+.menuListComposition{
+  position: relative;
+  .drop_button{
+    width: 2rem;
+    aspect-ratio: 1/1;
+    background-image: url("../../../../public/img/icons/three_points.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .submenu{
+    position: absolute;
+    right: 0;
+    background-color: #FFFFFF;
+    z-index: 5;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    .li{
+      padding: 5px 10px;
+      border-bottom: 1px solid #616161;
+      font-family: Montserrat;
+      cursor: pointer;
+    }
+    .li:hover{
+      background-color: #d2d2d2;
+      font-weight: 500;
+    }
+    .li:last-child{
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.selectCity input {
+  padding: 5px 10px;
+  width: 200px;
+}
+.selectCity .list .option {
+  padding: 5px 10px;
+  border: 1px solid #b7b7b7;
+  max-width: 200px;
+}
+.selectCity .list .option:hover {
+  background-color: #b7b7b7;
+}
+
+/*# sourceMappingURL=selectCity.css.map */

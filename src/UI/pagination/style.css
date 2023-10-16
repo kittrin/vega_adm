@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.pagination .pages {
+  display: flex;
+  align-items: center;
+}
+.pagination .pages .page {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  margin-right: 15px;
+}
+.pagination .pages .selectPage {
+  font-size: 1rem;
+  width: 1.5rem;
+  font-weight: 600;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #4b4b4b;
+  color: #4b4b4b;
+}
+.pagination select {
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+.pagination select option {
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

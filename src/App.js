@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import AppRouter from "./components/AppRouter";
+import TopMenu from "./UI/menu/top-menu/TopMenu";
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <TopMenu/>
+            <AppRouter/>
+        </div>
+    );
 }
 
 export default App;
+
+
+
+// const [isAuth, setIsAuth] = useState(false);
+// const [isLoading, setLoading] = useState(true)
+
+
+// useEffect(()=>{
+//     if (localStorage.getItem('auth')){
+//         setIsAuth(true)
+//     }
+//     setLoading(false);
+// })
+
+// <AuthContext.Provider value={{
+//  isAuth,
+//  setIsAuth,
+//  isLoading
+// }
+// }>
+// </AuthContext.Provider>
+
+
+
+//const route = useHistory()
+//rout.goBack...
+//rout.push('/posts/${id}
+
+//<Route exact path ='/about/:id'
+
+//const params = useParams на странице детального просмотра
+
+//const response = await axios.get('url', {
+//  params: {
+//      _limit: limit,
+//      _page: page
+//}

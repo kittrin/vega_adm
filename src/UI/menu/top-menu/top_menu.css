@@ -1,0 +1,39 @@
+#top_menu_vega {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: #616161;
+  border-radius: 0 0 10px 10px;
+}
+#top_menu_vega .cont {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(8, 1fr);
+}
+#top_menu_vega .cont .li:last-child {
+  grid-column-start: 8;
+  padding: 5px 12px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: max-content;
+}
+#top_menu_vega .cont .li:last-child a {
+  color: #000000;
+}
+#top_menu_vega .cont .li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top_menu_vega .cont .li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Century Gothic";
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=top_menu.css.map */

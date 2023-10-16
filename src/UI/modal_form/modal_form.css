@@ -1,0 +1,49 @@
+.mainBodyModalForm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(106, 106, 106, 0.33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.mainBodyModalForm .modal_form {
+  background-color: #FFFFFF;
+  width: 60%;
+  padding: 2rem;
+}
+.mainBodyModalForm .modal_form .title {
+  display: flex;
+  justify-content: space-between;
+}
+.mainBodyModalForm .modal_form .title span {
+  display: block;
+}
+.mainBodyModalForm .modal_form .title .button_exit {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  background-image: url("../../../public/img/icons/exit_button.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.mainBodyModalForm .modal_form .form {
+  display: flex;
+  flex-direction: column;
+}
+.mainBodyModalForm .modal_form .form input {
+  margin-bottom: 10px;
+}
+.mainBodyModalForm .modal_form .form select {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=modal_form.css.map */

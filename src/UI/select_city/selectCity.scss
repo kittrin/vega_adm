@@ -1,0 +1,16 @@
+.selectCity{
+  input{
+    padding: 5px 10px;
+    width: 200px;
+  }
+  .list{
+    .option{
+      padding: 5px 10px;
+      border: 1px solid #B7B7B7FF;
+      max-width: 200px;
+      &:hover{
+        background-color: #b7b7b7;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.deleteUniversityForm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(59, 59, 59, 0.42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+.deleteUniversityForm .form {
+  background-color: white;
+  z-index: 7;
+  padding: 10px;
+}
+.deleteUniversityForm .form span {
+  margin-bottom: 20px;
+}
+.deleteUniversityForm .form .buttons .exit {
+  padding: 10px;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.deleteUniversityForm .form .buttons .yes {
+  border: 1px solid #616161;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=DeleteUniversity.css.map */
